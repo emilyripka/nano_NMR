@@ -8,27 +8,35 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
    </head>
-   <body>
-      <nav>
-         <ul class="nav">
-            <li class="nav-item">
-              <a class="nav-link active" href="/nano_NMR/" style="font-family:Lucida Console, Monaco, monospace;
-                                                              color: #727FFF; ">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="/nano_NMR/blog/" style="font-family:Lucida Console, Monaco, monospace;
-                                                              color: #727FFF; ">Blog</a>
-            </li>
-         </ul>
-         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/cv">CV</a></li>
-            <li><a href="/blog">Blog</a></li>
-         </ul>
-      </nav>
-      <div class="container">
-         {{ content }}
+   <body style="background: #F9F9F9">
+      <div class='container-fluid'>
+         <div class="row bg-light" style="border: none">
+            <div class="col-sm-12 bg-light" align="center">
+               <!--<img src="/static/general/siteMedia/img/banner.jpg" class="img-fluid"
+		       alt="Emily Grace Ripka Banner" style="width:600px;">-->
+            </div>
+         </div>
+         <div class="row bg-light" style="border: none">
+            <div class="col-sm-12 bg-light; text-align:center;" align="center">
+               <ul class="nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="/nano_NMR/" style="font-family:Lucida Console, Monaco, monospace;
+                                                                    color: #727FFF; ">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="/nano_NMR/blog/" style="font-family:Lucida Console, Monaco, monospace;
+                                                                    color: #727FFF; ">Blog</a>
+                  </li>
+               </ul>
+            </div>
+	 </div>
+         <div class='container-fluid'>
+            <div class="row bg-light text-dark" style="border: none">
+               <div class="col-sm-12 bg-light text-dark" style="background-color:#f9f9f9">
+                  {{ content }}
+               </div>
+         <div class="footer bg-light">
+         </div>		 
       </div>
    </body>
 </html>
