@@ -30,11 +30,41 @@
          <div class="container">
             {{ content }}
          </div>
-   <footer>
-      <ul>
-         <li><a href="mailto:egyerdon@syr.edu">email</a></li>
-         <li><a href="https://github.com/emilyripka">github.com/emilyripka</a></li>
-      </ul>
-   </footer>
+      <!--footer>
+         <ul>
+            <li><a href="mailto:egyerdon@syr.edu">email</a></li>
+            <li><a href="https://github.com/emilyripka">github.com/emilyripka</a></li>
+         </ul>
+      </footer-->
+      <div class='container-fluid'>
+         <div class="row bg-light text-dark" style="border: none">
+            <div class="col-sm-12 bg-light text-dark" style="background-color:#f9f9f9">
+               {% block content %}
+               {% endblock %}
+               <p style="font-family:Lucida Console, Monaco, monospace; color: #979797;">         <button type="button" class="btn btn-info">
+                  <a href="https://www.linkedin.com/in/emily-grace-ripka-789ba8110/" style="color: #FFFFFF;">Linkedin</a>
+                  </button>
+                  <!--a href="#" class="fa fa-linkedin" style="padding: 20px; font-size: 30px; width: 50px; text-align: center; text-decoration: none; border-radius: 50%;
+                   background: #3B5998i; color: white;"></a-->
+                  <button type="button" class="btn btn-warning">
+                  <a href="https://github.com/emilyripka?tab=overview&from=2018-10-01&to=2018-10-31" style="color: #000000">Github</a>
+                  </button>
+                  <button type="button" class="btn btn-success">
+                  <a href="https://www.instagram.com/emilygraceripka/" style="color: #FFFFFF;">Instagram</a>
+                  </button>
+                  <button type="button" class="btn btn-danger">
+                  <a href="https://www.youtube.com/channel/UCqmofJwr-mtDC2zwTQ8SloQ?view_as=subscriber" style="color: #FFFFFF;">Youtube</a>
+                  </button>
+               </p>
+            </div>
+         </div>
+         <div class="row bg-light text-dark" style="border: none">
+            <div class="col-sm-12 bg-light text-dark" style="background-color:#f9f9f9">
+               <p style="text-align: left; font-family:Lucida Console, Monaco, monospace; color: #979797;">
+                  <i>All thoughts and opinions are my own and do not reflect those of my institution.</i>
+               </p>
+            </div>
+         </div>
+      </div>
    </body>
 </html>
