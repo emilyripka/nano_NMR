@@ -1,11 +1,13 @@
 body {
-    background: #F9F9F9;
+    /*background: #F9F9F9;*/
     margin: 60px auto;
     width: 70%;
 }
+/*
 div {
     background-color: #F9F9F9
 }
+*/
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
