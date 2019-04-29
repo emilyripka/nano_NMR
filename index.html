@@ -1,49 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-   <!-- Global site tag (gtag.js) - Google Analytics>
-   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128211528-1"></script>
-   <script>
-     window.dataLayer = window.dataLayer || [];
-     function gtag(){dataLayer.push(arguments);}
-     gtag('js', new Date());
+---
+layout: default
+---
 
-     gtag('config', 'UA-128211528-1');
-   </script -->
-
-   <!-- Title>
-   <title>
-      {% block headercontent %}
-      {% endblock %}
-      Emily Grace Ripka
-   </title -->
-
-   <!-- META DATA -->
-   <meta charset="utf-8" />
-   <meta name="viewport" content = "width=device-width, initial-scale=1.0">
-   <meta name="author" content="Emily Grace Ripka">
-
-   <!-- OTHER HEADER INFO>
-   {% load staticfiles %}
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-   <link rel="stylesheet" type="text/css" href="css/custom.css">
-   <link rel="stylesheet"
-      href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.13.1/build/styles/default.min.css">
-   <style type="text/css">
-      html, body {height:100%}
-   </style -->
-</head>
-
-
-<!-- LAYOUT -->
-<body style="background: #F9F9F9">
-<div class='container-fluid'>
-   <div class="row bg-light" style="border: none">
-      <div class="col-sm-12 bg-light" align="center">
-         <img src="static/banner.jpg" class="img-fluid" alt="Emily Grace Ripka Banner" style="width:600px;">
-      </div>
-   </div>
+<div class="home">
+    <h1>Welcome!</h1>
+    {% capture my_include %}
+    {% include homePage.html %}
+    {% endcapture %}
+    <!--{{ my_include | markdownify }}<!--then, we can render it-->-->
 </div>
-
-
