@@ -22,8 +22,6 @@
    <meta charset="utf-8" />
    <meta name="viewport" content = "width=device-width, initial-scale=1.0">
    <meta name="author" content="Emily Grace Ripka">
-   {% block metadatacontent %}
-   {% endblock %}
 
    <!-- OTHER HEADER INFO>
    {% load staticfiles %}
@@ -36,3 +34,49 @@
       html, body {height:100%}
    </style -->
 </head>
+
+
+<!-- LAYOUT -->
+<body style="background: #F9F9F9">
+<div class='container-fluid'>
+   <div class="row bg-light" style="border: none">
+      <div class="col-sm-12 bg-light" align="center">
+         <img src="/static/general/siteMedia/img/banner.jpg" class="img-fluid"
+          alt="Emily Grace Ripka Banner" style="width:600px;">
+      </div>
+   </div>
+   <div class="row bg-light" style="border: none">
+      <div class="col-sm-12 bg-light; text-align:center;" align="center">
+         <ul class="nav">
+           <li class="nav-item">
+             <a class="nav-link active" href="/blog/" style="font-family:Lucida Console, Monaco, monospace;
+                                                             color: #727FFF; ">Home</a>
+           </li>
+           <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="/blog/" id="navbarDropdown" role="button" data-toggle="dropdown"
+               aria-haspopup="true" aria-expanded="false"  style="font-family:Lucida Console, Monaco, monospace; color:#727FFF;">Blog</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                 <a class="dropdown-item" href="/blog/">Scientific Programming</a>
+                 <a class="dropdown-item" href="/blog/">Chemistry</a>
+                 <!--div class="dropdown-divider"></div-->
+                 <a class="dropdown-item" href="/blog/">Miscellaneous</a>
+              </div>
+           </li>
+           <!--li class="nav-item">
+             <a class="nav-link" href="/aboutme/"  style="font-family:Lucida Console, Monaco, monospace;
+                                                          color: #727FFF; ">About Me</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="/underconstruction/"  style="font-family:Lucida Console, Monaco, monospace;
+                                                                    color: #727FFF;;">Research</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="/teachingportfolio/"  style="font-family:Lucida Console, Monaco, monospace;
+                                                                    color: #727FFF;;">Teaching Portfolio</a>
+           </li -->
+         </ul>
+      </div>
+   </div>
+</div>
+
+
