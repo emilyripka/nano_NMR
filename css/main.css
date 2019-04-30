@@ -1,3 +1,7 @@
+.col-md {
+    background-color: #ffffd2;
+    border-radius: 15px 15px 15px 15px;
+}
 .row.col-centered > [class*='col-'] { 
     display: inline-block;
     float: none;
