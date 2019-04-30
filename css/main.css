@@ -3,11 +3,10 @@ body {
     margin: 60px auto;
     width: 70%;
 }
-/*
-div {
-    background-color: #F9F9F9
+.row.col-centered > [class*='col-'] { 
+    display: inline-block;
+    float: none;
 }
-*/
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
