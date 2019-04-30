@@ -4,6 +4,12 @@
       <title>
          {{ page.title }}
       </title>
+      <!-- META DATA -->
+      <meta charset="utf-8" />
+      <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+      <meta name="author" content="Emily Grace Ripka">
+      {{ page.meta }}
+      <!-- STYLESHEETS -->
       <link rel="stylesheet" type="text/css" href="/css/main.css">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -17,7 +23,10 @@
             </div>
          </div>
          <div class="row" style="border: none">
-            <div class="col-sm-12; text-align:center;" align="center">
+            <div class="col-sm">
+	       This is the left column		    
+	    </div>
+	    <div class="col-sm; text-align:center;"><!-- align="center"-->
                <ul class="nav">
                   <li class="nav-item">
                     <a class="nav-link active" href="/nano_NMR/">Home</a>
@@ -27,6 +36,9 @@
                   </li>
                </ul>
             </div>
+	    <div class="col-sm">
+ 	       This is the right column
+	    </div>
 	 </div>
          <div class='container-fluid'>
             <div class="row" style="border: none">
