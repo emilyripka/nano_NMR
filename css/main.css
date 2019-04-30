@@ -1,11 +1,11 @@
+.row.col-centered > [class*='col-'] { 
+    display: inline-block;
+    float: none;
+}
 body {
     /*background: #F9F9F9;*/
     margin: 60px auto;
     width: 70%;
-}
-.row.col-centered > [class*='col-'] { 
-    display: inline-block;
-    float: none;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
