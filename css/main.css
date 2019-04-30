@@ -1,16 +1,13 @@
-.row {
-    padding: 100px;
-}    
-.col-md {
+/*.col-md {
     background-color: #ffffd2;
     border-radius: 15px 15px 15px 15px;
-}
+}*/
 .row.col-centered > [class*='col-'] { 
     display: inline-block;
     float: none;
 }
 body {
-    background-color: #fecddb;	
+    /*background-color: #fecddb;*/
     margin: 60px auto;
     width: 70%;
 }
