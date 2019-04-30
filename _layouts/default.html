@@ -16,42 +16,32 @@
    </head>
    <body>
       <div class='container-fluid'>
-         <div class="row" style="border: none">
+         <!--div class="row" style="border: none">
             <div class="col-sm-12" align="center">
-               <!--<img src="/static/general/siteMedia/img/banner.jpg" class="img-fluid"
-		       alt="Emily Grace Ripka Banner" style="width:600px;">-->
+               <img src="/static/general/siteMedia/img/banner.jpg" class="img-fluid"
+		       alt="Emily Grace Ripka Banner" style="width:600px;">
             </div>
+	 </div-->
+         <ul class="nav justify-content-center">
+            <li class="nav-item">
+               <a class="nav-link active" href="/nano_NMR/">Home</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="/nano_NMR/blog/">Blog</a>
+            </li>
+         </ul>
+         <div class="row col-centered text-center" style='border:none'>
+	     <div class='col-sm-3' style='background:#f9f9f9;'>
+	     </div>
+             <div class="col-md">
+	        {{ content }} 
+             </div>
+	     <div class='col-sm-3' style='background:#f9f9f9;'>
+	     </div>
          </div>
-	 <div class='container-fluid'>
-            <div class="row col-centered text-center" style='border:none'>
-               <div class='col-sm-3' style='background:#f9f9f9;'>
-	       </div>
-               <div class="col-md">
-                  <ul class="nav justify-content-center">
-                     <li class="nav-item">
-                        <a class="nav-link active" href="/nano_NMR/">Home</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="/nano_NMR/blog/">Blog</a>
-                     </li>
-                  </ul>
-	       </div>
-	       <div class='col-sm-3' style='background:#f9f9f9;'>
-	       </div>
-	    </div>
-	 </div>
-	 <div class='container-fluid'>
-            <div class="row col-centered text-center" style='border:none'>
-		<div class='col-sm-3' style='background:#f9f9f9;'>
-	        </div>
-                <div class="col-md">
-		   {{ content }} 
-                </div>
-	  	<div class='col-sm-3' style='background:#f9f9f9;'>
-	        </div>
-            </div>
-	 </div>
-         <div class="footer">
+	 <!--div class='row' style='background:#f9f9f9'>
+	 </div-->
+         <div class="footer" style='background:#f9f9f9'>
          </div>		 
       </div>
    </body>
